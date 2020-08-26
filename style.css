@@ -1,0 +1,79 @@
+/*header smaller, buttons ovals with whole area clickable,
+prettier font for header, align header left, shadowy box
+to hold the poem? subtitle for poem, different types of borders*/
+
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+*{}
+html{}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background-color: #ff7ebf;	
+}
+.main {
+	background-color: rgb(140, 140, 140, .5);
+	width: 70%;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.header {
+	height: 15vh;
+}
+h1 {
+	font-family: "Sofia";
+	text-align: left;
+	text-decoration: underline;
+	font-size: 2.5em;
+	padding-left: 5.5%;
+	padding-top: 4%;
+	display: inline;
+	
+}
+img {
+	width: 70px;
+	height: 70px;
+	float: right;
+}
+.menu{
+	
+	height: 7vh;
+	border-top: 3px solid #ff7ebf;
+	border-bottom: 3px solid #ff7ebf;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+a:link{
+	text-decoration: none;
+	color: black;
+	width: 100%;
+	padding: 2.5vh 0;	
+	text-align: center;
+}
+a:visitied{}
+a:hover{
+	color: white;
+	border: 2px solid rgb(167, 204, 98); 
+}
+a:active{}
+
+#body {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+pre{
+	
+	text-align: center;
+	
+	border-right: 3px solid #ff7ebf;
+	border-left: 3px solid #ff7ebf;
+	
+}
+p{	
+}
